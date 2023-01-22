@@ -1,0 +1,92 @@
+.colleges {
+    margin-top: 2rem;
+    background-color: white;
+    box-shadow: 0px 0px 15px -7px black;
+    padding: 5rem 6rem;
+}
+
+.TopHeading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.TopHeading span{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.TopHeading h6{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.TopHeading small{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.stateName {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.download {
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.download div{
+    padding-top: 1rem;
+}
+
+.option div{
+    padding-top: 1rem;
+}
+
+.option a{
+    padding: .4rem .7rem;
+    border-radius: .3rem;
+    gap: 1rem;
+    text-decoration: none;
+    color: white;
+    background-color: #232354;
+}
+
+.download span {
+    gap: 1rem;
+}
+
+@media screen and (max-width:800px) {
+    .colleges {
+        padding: 5rem 3rem;
+    }
+    .TopHeading span{
+        font-size: 1rem;
+    }
+    
+    .TopHeading h6{
+        font-size: 1rem;
+    }
+    
+    .TopHeading small{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .colleges {
+        padding: 3rem 1.5rem;
+    }
+    .download div span{
+        font-size: .7rem;
+    }
+    .download div a{
+        font-size: .7rem;
+    }
+    .option div a{
+        font-size: .7rem;
+    }
+}

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Cabin+Condensed&family=Courgette&family=Fira+Sans&family=Fredoka+One&family=Inter:wght@300&family=Leckerli+One&family=Montez&family=Pacifico&family=Philosopher&family=Poppins:wght@500&family=Roboto&family=Roboto+Condensed&family=Rubik&family=Signika+Negative:wght@300&family=Source+Sans+Pro&family=Ubuntu:wght@300;400&family=Varela+Round&family=Yanone+Kaffeesatz&display=swap');
+
+.bothtable {
+   display: flex;
+   padding: 10rem 6rem;
+}
+
+.Firsttable {
+   margin: auto;
+   background-color: white;
+   border-radius: 1.3rem;
+   padding: 1rem 4rem;
+   width: 21rem;
+   transition: all 400ms ease;
+   border: 1px solid black;
+}
+
+
+hr {
+   width: 10rem;
+   height: 1px;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: black;
+}
+
+.secondtable {
+   margin: auto;
+   background-color: white;
+   border-radius: 1.3rem;
+   padding: 1rem 4rem;
+   width: 21rem;
+   transition: all 400ms ease;
+   border: 1px solid black;
+}
+
+.secondtable tr th {
+   border: none;
+   text-align: center;
+   padding-top: 1.5rem;
+   font-size: 1.2rem;
+}
+
+.Firsttable tr th {
+   border: none;
+   text-align: center;
+   font-size: 1.2rem;
+   padding-top: 1.5rem;
+}
+
+.secondtable tr td {
+   border: none;
+}
+
+.secondtable tr td a {
+   color: black;
+   text-decoration: none;
+   font-size: 1.1rem;
+}
+
+.secondtable tr td a:hover {
+   color: #8080b6;
+}
+
+.secondtable tr td i {
+   margin-right: .5rem;
+   color: #232354;
+}
+
+.Firsttable tr td {
+   border: none;
+}
+
+.Firsttable tr td a {
+   color: black;
+   text-decoration: none;
+   font-size: 1.1rem;
+}
+
+.Firsttable tr td a:hover {
+   color: #7777a8;
+}
+
+.Firsttable tr td i {
+   margin-right: .5rem;
+   color: #232354;
+}
+
+@media screen and (max-width:1200px) {
+   .bothtable {
+      padding: 10rem 0rem;
+   }
+}
+
+@media screen and (max-width:1024px) {
+   .bothtable {
+      gap: 2rem;
+   }
+}
+
+@media screen and (max-width:900px) {
+   .bothtable {
+      display: block;
+   }
+   .Firsttable {
+      margin-bottom: 2rem;
+   }
+}
+
+@media screen and (max-width:500px) {
+   .Firsttable {
+      width: 18rem;
+      padding: 1rem 3rem;
+   }
+   
+   .secondtable {
+      width: 18rem;
+      padding: 1rem 3rem;
+   }
+}

@@ -1,0 +1,46 @@
+.allquestion {
+    margin: auto;
+   padding-top: 2rem;
+    padding-bottom: 7rem;
+}
+
+.allquestion .grid {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.allquestion .btn {
+    padding: .2em 1.7em;
+    border: none;
+    border-radius: .1em;
+    font-size: 1.2em;
+    color: white;
+}
+
+.allquestion .btn:hover {
+    cursor: pointer;
+    background-color: #232354;
+    color: white;
+}
+
+.next {
+    background-color: #232354;
+    justify-self: flex-end;
+}
+
+.prev {
+    background-color: #232354;
+    justify-self: flex-start;
+}
+
+@media screen and (max-width:1024px) {
+    .questionpage {
+        margin-left: 0rem;
+    }
+}
+
+@media screen and (max-width:800px) {
+   
+}

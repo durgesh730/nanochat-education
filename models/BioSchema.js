@@ -1,0 +1,20 @@
+import mongoose from "mongoose";
+const { Schema } = mongoose;
+
+const BiologySchema = new Schema({
+    questions: {
+        type: Array,
+        default: []
+    },
+    answers: {
+        type: Array,
+        default: []
+    },
+    createAt:
+    {
+        type: Date,
+        default: Date.now
+    }
+});
+
+export default mongoose.model("Biology", BiologySchema);

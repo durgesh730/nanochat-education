@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.topnav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: .8rem 4rem ;
+  box-shadow: 0px 0px 10px -5px ;
+  background-color: #232354;
+}
+
+.neetlogo a{
+  font-family: 'Leckerli One';
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.neetRightNav{
+  background-color:white;
+  padding: .3rem 1rem;
+  border-radius:0.5rem;
+}
+
+.neetRightNav a{
+    text-decoration: none;
+    color:#232354;
+}
+
+@media screen and (max-width:400px ) {
+  .topnav{
+    padding: .8rem 1rem ;
+  }
+}
+

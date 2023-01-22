@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Cabin+Condensed&family=Courgette&family=Fira+Sans&family=Fredoka+One&family=Inter:wght@300&family=Leckerli+One&family=Montez&family=Pacifico&family=Philosopher&family=Poppins:wght@500&family=Roboto&family=Roboto+Condensed&family=Rubik&family=Signika+Negative:wght@300&family=Source+Sans+Pro&family=Ubuntu:wght@300;400&family=Varela+Round&family=Yanone+Kaffeesatz&display=swap');
+body {
+  transition: all 400ms ease;
+}
+
+::-webkit-scrollbar {
+   display: none;
+}
+.imgpara {
+  display: grid;
+  grid-gap: 4.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  font-family: 'Philosopher';
+  text-align: center;
+}
+
+.Text {
+  padding-top: 10rem;
+}
+
+.Text .textone span {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #232354;
+}
+
+.Text .textsecond {
+  margin-top: -16px;
+}
+
+.Text .textsecond span {
+  font-size: 2.5rem;
+  color: #232354;
+  font-weight: 600;
+}
+
+.Text .textthird {
+  margin-top: -10px;
+}
+
+.Text .textthird small {
+  opacity: .8;
+  color: #232354;
+}
+
+.Text .textfourth {
+  margin-top: -8px;
+}
+
+.Text .textfourth small {
+  color: #232354;
+  opacity: .8;
+}
+
+.imgpara .img img {
+  width: 30rem;
+}
+
+.textButton {
+  float: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* .textButton button {
+  margin-top: .5rem;
+  margin-left: 4rem;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #232354;
+  color: #232354;
+} */
+
+
+.textButton a{
+  margin-top: .5rem;
+  margin-left: 4rem;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #232354;
+  color: #232354;
+}
+
+/* .textButton button:hover {
+  background-color: #232354;
+  color: white;
+} */
+
+.textButton a:hover {
+  background-color: #232354;
+  color: white;
+}
+
+/* ======================= social media css ================= */
+
+.socialMediaLogo {
+  height:32%;
+  width: 4%;
+  position: fixed;
+  z-index: 1;
+  top: 14rem;
+  left: 0;
+  padding-left: .5rem;
+  padding-top: 1rem;
+  overflow-x: hidden;
+  transition: 0.5s;
+  background-color: #232354;
+  border-bottom-right-radius: .7rem;
+  border-top-right-radius: .7rem;
+}
+
+.socialMediaLogo .youtube a {
+  font-size: 1.3rem;
+  color: #FF0000;
+  background-color: white;
+  font-size: 1.3rem;
+  border-radius: 5rem;
+  padding-top: .26rem;
+  padding-bottom: .4rem;
+  padding-left: .4rem;
+  padding-right: .4rem;
+}
+
+.socialMediaLogo .linkdin {
+  margin-right: 1rem;
+  margin-top: .7rem;
+}
+
+.socialMediaLogo .linkdin a {
+  background-color: white;
+  font-size: 1.2rem;
+  border-radius: 4rem;
+  padding-top: .26rem;
+  padding-bottom: .4rem;
+  padding-left: .4rem;
+  padding-right: .4rem;
+  color: #0e76a8;
+}
+
+.socialMediaLogo .instagram {
+  margin-top: .7rem;
+}
+
+.socialMediaLogo .instagram a {
+  font-size: 1.3rem;
+  color: white;
+  border-radius: 4rem;
+  padding-top: .26rem;
+  padding-bottom: .4rem;
+  padding-left: .4rem;
+  padding-right: .4rem;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.socialMediaLogo .gmail {
+  margin-top: .7rem;
+}
+
+.socialMediaLogo .gmail a {
+  background-color: white;
+  font-size: 1.2rem;
+  border-radius: 4rem;
+  padding-top: .26rem;
+  padding-bottom: .4rem;
+  padding-left: .4rem;
+  padding-right: .4rem;
+  color: #0e76a8;
+  transition: all 400ms ease;
+}
+
+/* ============= media query =============== */
+
+@media screen and (max-width: 1300px) {
+  .imgpara {
+    padding-top: 2rem;
+  }
+  .imgpara .img img {
+    width: 26rem;
+  }
+
+  .Text {
+    padding-top: 7rem;
+  }
+
+  .socialMediaLogo {
+    width: 5%;
+    height:32%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .imgpara {
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 0rem;
+  }
+
+  .Text {
+    padding-top: 5rem;
+  }
+
+  .imgpara .img {
+    text-align: center;
+  }
+
+  .textButton a {
+    margin-top: .5rem;
+    margin-left: 10rem;
+  }
+
+  .socialMediaLogo {
+    width: 6.1%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .textButton a {
+    margin-top: .5rem;
+    margin-left: 5rem;
+  }
+
+  .socialMediaLogo {
+    width: 8%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .imgpara .img img {
+    width: 22rem;
+  }
+  .socialMediaLogo {
+    display: none;
+  }
+  .Text .textone span {
+    font-size: 1.7rem;
+  }
+
+  .Text .textsecond span {
+    font-size: 1.7rem;
+  }
+
+  .Text .textsecond {
+    margin-top: -10px;
+  }
+
+  .Text .textthird small {
+    font-size:.7rem;
+  }
+
+  .Text .textfourth {
+    margin-top: -12px;
+  }
+
+  .Text .textfourth small {
+    font-size: .7rem;
+  }
+
+  .imgpara {
+    grid-gap: 2.5rem;
+  }
+
+  .Text {
+    padding-top: 3rem;
+  }
+  .PhoneIcon {
+    display: none;
+  } 
+}
+
+@media screen and (max-width: 400px) {
+
+  .Text .textone span {
+    font-size: 1.5rem;
+  }
+
+  .Text .textsecond span {
+    font-size: 1.5rem;
+  }
+
+  .Text .textsecond {
+    margin-top: -6px;
+  }
+
+  .Text .textthird small {
+    font-size: .55rem;
+  }
+
+  .Text .textfourth {
+    margin-top: -14px;
+  }
+
+  .Text .textfourth small {
+    font-size: .56rem;
+  }
+
+  .imgpara {
+    grid-gap:2.8rem;
+  }
+
+  .Text {
+    padding-top: 3rem;
+  }
+  .imgpara .img img{
+    width: 16rem;
+  }
+}

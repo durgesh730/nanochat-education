@@ -1,0 +1,129 @@
+/* .notification{
+    background-color: #fbfbff;
+} */
+
+.column {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2rem;
+    gap: 1rem;
+    margin: auto;
+    text-align: center;
+    /* background-color: rgb(237, 255, 255); */
+}
+
+.column img {
+    width: 30rem;
+}
+
+.column .row {
+    line-height: 3rem;
+    padding-top: 7rem;
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width:1200px) {
+    .column .row {
+        padding-top: 6rem;
+        font-size: 2rem;
+    }
+
+    .column img {
+        width: 22rem;
+    }
+
+    .column {
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .column .row {
+        padding-top: 5rem;
+        font-size: 1.8rem;
+    }
+
+    .column img {
+        width: 18rem;
+    }
+    .column .row {
+        line-height: 2.4rem;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .column {
+        display: block;
+    }
+
+    .column img {
+        width: 25rem;
+    }
+
+    .column .row {
+        line-height: 2.5rem;
+        padding-top: 0rem;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .Othernote {
+        display: block;
+    }
+    .column img {
+        width: 15rem;
+    }
+    .column .row {
+        line-height: 2rem;
+        padding-top: 0rem;
+        font-size: 1.5rem;    
+    }
+}
+
+/* ========== notification section =================== */
+
+.Othernote {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7rem;
+    margin: auto;
+}
+
+.notenames {
+    display: grid;
+    gap: .5rem;
+    font-size: 1.2rem;
+}
+
+.notenames a{
+    text-decoration: none;
+    color: #232354;
+}
+
+.notenames a:hover {
+    color: #8b8b95;
+}
+
+@media screen and (max-width:800px) {
+    .Othernote {
+        gap: 4rem;
+        padding-top: 2rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .Othernote {
+        display: block;
+    }
+    .notenames a{
+        text-align: center;
+        text-decoration: none;
+        color: #232354;
+    }
+    .Others{
+        padding-top: 1rem;
+    }
+}
